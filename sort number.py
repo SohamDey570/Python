@@ -1,0 +1,10 @@
+lt = list()
+n = int(input("Enter the range: "))
+for i in range(n):
+    lt.append(float(input()))
+lt.sort(reverse=True)
+print("In descending order: ")
+print(lt)
+print("In ascending order: ")
+lt.sort()
+print(lt)
